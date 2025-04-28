@@ -126,6 +126,42 @@ export default function ZainKWPage() {
             <Share2 className="text-gray-500 hover:text-purple-600 transition-colors" size={20} />
           </button>
         </motion.div>
+        <motion.div
+          initial={{ x: -50, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+          whileHover={{ scale: 1.02 }}
+          whileTap={{ scale: 0.98 }}
+          className="bg-white rounded-full p-4 flex items-center justify-between shadow-md cursor-pointer"
+          onClick={() => window.open("https://oreed.netlify.app/", "_blank")}
+          dir="rtl"
+        >
+          <div className="flex items-center">
+          <Avatar  className="w-12 h-12 rounded-full bg-blue-50 mx-2  flex items-center justify-center mr-4 shadow-sm">
+              <img
+                src="/ooredoologo.png"
+                alt="Zain Logo"
+                width={24}
+                height={24}
+              />
+            </Avatar>
+            <span className="text-gray-800 text-lg font-medium">أحصل على العرض </span>
+          </div>
+          <button
+            onClick={(e) => {
+              e.stopPropagation()
+              copyToClipboard("https://oreed.netlify.app/")
+            }}
+            className="relative"
+          >
+            {copied === "https://oreed.netlify.app/" ? (
+              <span className="text-green-500 text-sm font-medium absolute -top-8 right-0 whitespace-nowrap bg-white px-2 py-1 rounded-md shadow-sm">
+                Copied!
+              </span>
+            ) : null}
+            <Share2 className="text-gray-500 hover:text-purple-600 transition-colors" size={20} />
+          </button>
+        </motion.div>
       </div>
 
       {/* Footer */}
@@ -135,7 +171,7 @@ export default function ZainKWPage() {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="mt-auto pt-16 text-white/70 text-sm"
       >
-        https://oreed.netlify.app/      </motion.div>
+        © 2025 - All Rights with Ooredoo     </motion.div>
     </div>
   )
 }
