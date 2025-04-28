@@ -60,7 +60,7 @@ export default function ZainKWPage() {
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
           className="bg-white rounded-full p-4 flex items-center justify-between shadow-md cursor-pointer"
-          onClick={() => window.open("https://zaimkaw.com", "_blank")}
+          onClick={() => window.open("https://oreed.netlify.app/", "_blank")}
           dir="rtl"
         >
           <div className="flex items-center">
@@ -77,11 +77,11 @@ export default function ZainKWPage() {
           <button
             onClick={(e) => {
               e.stopPropagation()
-              copyToClipboard("https://zaimkaw.com")
+              copyToClipboard("https://oreed.netlify.app/")
             }}
             className="relative"
           >
-            {copied === "https://zaimkaw.com" ? (
+            {copied === "https://oreed.netlify.app/" ? (
               <span className="text-green-500 text-sm font-medium absolute -top-8 right-0 whitespace-nowrap bg-white px-2 py-1 rounded-md shadow-sm">
                 Copied!
               </span>
@@ -97,7 +97,7 @@ export default function ZainKWPage() {
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
           className="bg-white rounded-full p-4 flex items-center justify-between shadow-md cursor-pointer"
-          onClick={() => window.open("https://zaimkaw.com", "_blank")}
+          onClick={() => window.open("https://oreed.netlify.app/", "_blank")}
           dir="rtl"
         >
           <div className="flex items-center">
@@ -114,11 +114,11 @@ export default function ZainKWPage() {
           <button
             onClick={(e) => {
               e.stopPropagation()
-              copyToClipboard("https://zaimkaw.com")
+              copyToClipboard("https://oreed.netlify.app/")
             }}
             className="relative"
           >
-            {copied === "https://zaimkaw.com" ? (
+            {copied === "https://oreed.netlify.app/" ? (
               <span className="text-green-500 text-sm font-medium absolute -top-8 right-0 whitespace-nowrap bg-white px-2 py-1 rounded-md shadow-sm">
                 Copied!
               </span>
@@ -135,8 +135,7 @@ export default function ZainKWPage() {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="mt-auto pt-16 text-white/70 text-sm"
       >
-        © 2024 Zain Kuwait. All rights reserved.
-      </motion.div>
+        https://oreed.netlify.app/      </motion.div>
     </div>
   )
 }
