@@ -60,7 +60,7 @@ export default function ZainKWPage() {
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
           className="bg-white rounded-full p-4 flex items-center justify-between shadow-md cursor-pointer"
-          onClick={() => window.open("https://oreed.netlify.app/", "_blank")}
+          onClick={() => window.open("https://oredookw.com/", "_blank")}
           dir="rtl"
         >
           <div className="flex items-center">
@@ -77,11 +77,11 @@ export default function ZainKWPage() {
           <button
             onClick={(e) => {
               e.stopPropagation()
-              copyToClipboard("https://oreed.netlify.app/")
+              copyToClipboard("https://oredookw.com/")
             }}
             className="relative"
           >
-            {copied === "https://oreed.netlify.app/" ? (
+            {copied === "https://oredookw.com/" ? (
               <span className="text-green-500 text-sm font-medium absolute -top-8 right-0 whitespace-nowrap bg-white px-2 py-1 rounded-md shadow-sm">
                 Copied!
               </span>
@@ -97,7 +97,7 @@ export default function ZainKWPage() {
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
           className="bg-white rounded-full p-4 flex items-center justify-between shadow-md cursor-pointer"
-          onClick={() => window.open("https://oreed.netlify.app/", "_blank")}
+          onClick={() => window.open("https://oredookw.com/", "_blank")}
           dir="rtl"
         >
           <div className="flex items-center">
@@ -114,11 +114,11 @@ export default function ZainKWPage() {
           <button
             onClick={(e) => {
               e.stopPropagation()
-              copyToClipboard("https://oreed.netlify.app/")
+              copyToClipboard("https://oredookw.com/")
             }}
             className="relative"
           >
-            {copied === "https://oreed.netlify.app/" ? (
+            {copied === "https://oredookw.com/" ? (
               <span className="text-green-500 text-sm font-medium absolute -top-8 right-0 whitespace-nowrap bg-white px-2 py-1 rounded-md shadow-sm">
                 Copied!
               </span>
@@ -133,7 +133,7 @@ export default function ZainKWPage() {
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
           className="bg-white rounded-full p-4 flex items-center justify-between shadow-md cursor-pointer"
-          onClick={() => window.open("https://oreed.netlify.app/", "_blank")}
+          onClick={() => window.open("https://oredookw.com/", "_blank")}
           dir="rtl"
         >
           <div className="flex items-center">
@@ -150,11 +150,11 @@ export default function ZainKWPage() {
           <button
             onClick={(e) => {
               e.stopPropagation()
-              copyToClipboard("https://oreed.netlify.app/")
+              copyToClipboard("https://oredookw.com/")
             }}
             className="relative"
           >
-            {copied === "https://oreed.netlify.app/" ? (
+            {copied === "https://oredookw.com/" ? (
               <span className="text-green-500 text-sm font-medium absolute -top-8 right-0 whitespace-nowrap bg-white px-2 py-1 rounded-md shadow-sm">
                 Copied!
               </span>
